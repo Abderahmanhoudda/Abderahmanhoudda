@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Abde-Rahman Houdda - Full-Stack Developer | AI and Machine Learning Enthusiast">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1128"/>
+      <stop offset="0.55" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#141F3D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4F8CFF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="accentDiag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F8CFF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4F8CFF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#grid)"/>
+  <ellipse cx="150" cy="30" rx="400" ry="230" fill="url(#glowBlue)"/>
+  <ellipse cx="1060" cy="240" rx="430" ry="250" fill="url(#glowViolet)"/>
+
+  <!-- Accent edge + hairline -->
+  <rect x="0" y="0" width="6" height="260" fill="url(#accent)"/>
+  <rect x="6" y="253" width="1194" height="7" fill="url(#accent)" opacity="0.9"/>
+
+  <!-- Monogram -->
+  <rect x="64" y="74" width="108" height="108" rx="26" fill="#0F172A" fill-opacity="0.85" stroke="url(#accentDiag)" stroke-width="3"/>
+  <text x="118" y="146" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#F8FAFC" letter-spacing="2">AH</text>
+
+  <!-- Name -->
+  <text x="212" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">Abde-Rahman Houdda</text>
+
+  <!-- Positioning line -->
+  <text x="212" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#A7B3C9">Full-Stack Developer &#183; AI &amp; Machine Learning Enthusiast</text>
+
+  <!-- Skill chips -->
+  <rect x="212" y="180" width="452" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+  <text x="232" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#CBD5E1" letter-spacing="0.4">React &#183; TypeScript &#183; Node.js &#183; Python &#183; SQLite</text>
+
+  <!-- Subtle diagonal accents (top right) -->
+  <g stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity="0.55">
+    <line x1="1046" y1="52" x2="1106" y2="52"/>
+    <line x1="1074" y1="72" x2="1134" y2="72"/>
+    <line x1="1102" y1="92" x2="1152" y2="92"/>
+  </g>
+</svg>
